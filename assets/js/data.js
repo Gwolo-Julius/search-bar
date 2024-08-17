@@ -1,0 +1,73 @@
+// Data file
+export const products = [
+  {
+    id: "weouhlkjlkj",
+    name: "Green Apple",
+    img: "assets/img/popular-product-1.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    price: 30,
+  },
+  {
+    id: "weouhlkpqviggkjlkj",
+    name: "Orange",
+    img: "assets/img/popular-product-2.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    price: 25,
+  },
+  {
+    id: "sfhjkhvheuip;",
+    name: "Chinese Cabbage",
+    img: "assets/img/popular-product-3.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    price: 10,
+  },
+  {
+    id: "wviqahjkhiuh",
+    name: "Sukuma wiki",
+    img: "assets/img/popular-product-4.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    price: 12,
+  },
+  {
+    id: "ysyibvwuia",
+    name: "Egg plants",
+    img: "assets/img/popular-product-5.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    price: 8,
+  },
+  {
+    id: "sdaefvkbhhkuh",
+    name: "Sweet Potatoes",
+    img: "assets/img/popular-product-6.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    price: 20.5,
+  },
+  {
+    id: "weouhlwunkjlkj",
+    name: "Fresh Maize",
+    img: "assets/img/popular-product-7.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    price: 5,
+  },
+  {
+    id: "ajhjhvwyuf",
+    name: "Corn",
+    img: "assets/img/popular-product-8.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    price: 10,
+  },
+  {
+    id: "biiwkhajkhsudh",
+    name: "Green Paper",
+    img: "assets/img/popular-product-9.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    price: 3,
+  },
+  {
+    id: "onvoweuyjbjb",
+    name: "Chilli",
+    img: "assets/img/popular-product-10.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    price: 2,
+  },
+];

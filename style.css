@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+body {
+  height: 100vh;
+}
+p {
+  color: rgb(125, 125, 125);
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0;
+  height: 3.5rem;
+  background-color: #168533;
+  z-index: 5;
+}
+.searchBarWrapper {
+  border: 1px solid lightgray;
+  display: flex;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+  width: 68%;
+  max-width: 700px;
+  justify-content: space-between;
+  border-radius: 2rem;
+  background-color: transparent;
+}
+
+.search__input {
+  width: 95%;
+  background-color: transparent;
+  color: #fff;
+}
+
+.search__input::placeholder {
+  color: lightgray;
+}
+
+.product__container {
+  display: grid;
+  justify-content: center;
+  gap: 1.4rem;
+  width: 75%;
+  padding-block: 4rem;
+  margin: 1rem auto;
+}
+
+.image__wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.image__wrapper img {
+  width: 100%;
+}
+.product__card {
+  border: 1px solid teal;
+  border-radius: 0.6rem;
+  transition: 0.4s;
+}
+.product__card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px #16853434;
+}
+.desc__price {
+  padding: 0.8rem;
+}
+.description {
+  padding: 0.8rem 0;
+}
+
+.price__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 1.5rem;
+  background-color: #168533;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px #1685343d;
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  background-color: #222;
+}
+@media screen and (max-width: 800px) {
+  .product__container {
+    grid-template-columns: repeat(2, 260px);
+  }
+}
+@media screen and (min-width: 801px) {
+  .product__container {
+    grid-template-columns: repeat(3, 260px);
+  }
+}
+
+@media screen and (min-width: 1124px) {
+  .product__container {
+    grid-template-columns: repeat(4, 260px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .product__container {
+    grid-template-columns: repeat(1, 260px);
+  }
+}
